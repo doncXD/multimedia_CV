@@ -1,6 +1,6 @@
 # Multimedia CV website: Dylan Doncaster
 
-**Live site:** https://doncXD.github.io/Multimedia-CV-web/
+**Live site:** https://doncXD.github.io/multimedia-CV/
 
 **Figma design:** https://www.figma.com/design/3heakflUNVsSxkzJ4ujUZv/Untitled?node-id=0-1&t=RmhDviKaVfSFujjG-0
 (If teacher needs edit access I can modify it without any problem. Only reason is to avoid outside people messing around with the design)
