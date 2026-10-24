@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta author="Dylan Doncaster">
+    <meta charset="UTF-8">
+
+    <title>Dylan Doncaster | Software Engineering student</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- capçalera -->
+    <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+        <a class="nav-brand" href="#top">Dylan Doncaster</a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <!-- <li><a href="#experience">Experience</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+
+    <!-- Hero -->
+        <section class="hero container" id="top">
+        <div class="hero-text">
+            <h1>Dylan Doncaster</h1>
+            <p class="hero-tagline">Software Engineering student working on systems, simulation and signal processing.</p>
+            <p class="hero-meta">Third-year student at the Universitat de Girona</p>
+            <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View projects</a>
+            <a class="btn btn-secondary" href="#contact">Contact me</a>
+            </div>
+        </div>
+
+        <!-- Decorative elem -->
+        <div class="radar" aria-hidden="true">
+            <svg viewBox="0 0 200 200" fill="none">
+            <circle class="radar-outer" cx="100" cy="100" r="98"/>
+            <circle cx="100" cy="100" r="66"/>
+            <circle cx="100" cy="100" r="33"/>
+            <line x1="100" y1="2" x2="100" y2="198"/>
+            <line x1="2" y1="100" x2="198" y2="100"/>
+            <circle class="radar-center" cx="100" cy="100" r="2"/>
+            </svg>
+            <div class="radar-sweep"></div>
+            <span class="blip" style="left:69.3%; top:27%; --a:40"></span>
+            <span class="blip" style="left:74.4%; top:79.1%; --a:140"></span>
+            <span class="blip" style="left:31.2%; top:56.8%; --a:250"></span>
+            <span class="blip" style="left:17.8%; top:23%; --a:310"></span>
+        </div>
+        </section>
+
+        <!-- About -->
+        <section class="section container" id="about">
+            <h2>About</h2>
+            <div class="prose">
+                <p>
+                    I'm a third-year Software Engineering student at the Universitat de Girona. 
+                    My interests include embedded systems, robotics, UAVs, and signal processing. 
+                    I enjoy learning and experimeting with new technologies, and I'm always looking for ways to apply what I learn in practice.
+                </p>
+                <p>
+                    Outside of coursework I build simulations and tools, such as a pulse-Doppler radar 
+                    simulator in Python, to see how the theory behaves in practice. 
+                    I'm looking for an internship in the field of embedded systems or signal processing.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section container" id="skills">
+            <h2>Skills</h2>
+            <dl class="skills">
+                <div class="skill-row">
+                <dt>Programming languages</dt>
+                <dd>
+                    <ul class="chips">
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>HTML</li>
+                    <li>JavaScript</li>
+                    <li>CSS</li>
+                    </ul>
+                </dd>
+                </div>
+                <div class="skill-row">
+                <dt>Systems and embedded</dt>
+                <dd>
+                    <ul class="chips">
+                    <li>Linux</li>
+                    <li>Windows</li>
+                    <li>Operating systems</li>
+                    <li>Computer architecture</li>
+                    <li>Embedded programming</li>
+                    </ul>
+                </dd>
+                </div>
+                <div class="skill-row">
+                <dt>Tools</dt>
+                <dd>
+                    <ul class="chips">
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Figma</li>
+                    </ul>
+                </dd>
+                </div>
+                <div class="skill-row">
+                <dt>Spoken languages</dt>
+                <dd>
+                    <ul class="chips">
+                    <li>Catalan (Native)</li>
+                    <li>Spanish (Native)</li>
+                    <li>English (Native)</li>
+                    <li>German (learning)</li>
+                    </ul>
+                </dd>
+                </div>
+            </dl>
+        </section>
+
+    <!-- Projects -->
+    <section class="section container" id="projects">
+      <h2>Projects</h2> 
+      <div class="project-grid">
+
+        <article class="card">
+          <h3>Pulse-Doppler radar simulation</h3>
+          <p>A Python simulation of a pulse-Doppler radar signal chain, with CFAR target detection.</p>
+          <p>Technologies used:</p>
+          <ul class="chips">
+            <li>Python</li><li>Signal processing</li><li>CFAR</li>
+          </ul>
+          <a class="card-link" href="https://github.com/doncXD/radar-sim" target="_blank" rel="noopener" aria-label="View the radar simulation on GitHub">View on GitHub</a>
+        </article>
+
+        <article class="card">
+          <h3>Labyrinth simulation</h3>
+          <p>A Java labyrinth simulation designed around a polymorphic class hierarchy. Built for the Programming Project university course.</p>
+          <ul class="chips">
+            <li>Java</li><li>OOP</li><li>Polymorphism</li>
+          </ul>
+          <a class="card-link" href="https://github.com/doncXD/java-labyrinth" target="_blank" rel="noopener" aria-label="View the labyrinth simulation on GitHub">View on GitHub</a>
+        </article>
+
+        <article class="card">
+          <h3>PolyBot</h3>
+          <p>A Python paper-trading bot for Polymarket that scans for suspicious market activity (insider trading).</p>
+          <ul class="chips">
+            <li>Python</li>
+            <li>Paper trading</li>
+            <li>Strategies</li>
+          </ul>
+          <a class="card-link" href="https://github.com/doncXD/PolyBot" target="_blank" rel="noopener" aria-label="View PolyBot on GitHub">View on GitHub</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!--  Education  -->
+    <section class="section container" id="education">
+      <h2>Education</h2>
+      <article class="entry">
+        <p class="entry-date">2024 - present</p>
+        <div class="entry-body">
+          <h3>Software Engineering (Enginyeria Informàtica)</h3>
+          <p class="entry-place">Universitat de Girona</p>
+          <p>Relevant courses:</p>
+          <ul class="chips">
+            <li>Operating systems</li>
+            <li>Computer architecture</li>
+            <li>Software engineering</li>
+            <li>Systems programming</li>
+            <li>Programming project</li>
+            <li>Algorithms and data structures</li>
+            <li>Database systems</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <!--  Experience  (For future )
+    <section class="section container" id="experience">
+      <h2>Experience</h2>
+      <article class="entry">
+        <p class="entry-date">date1-date2</p>
+        <div class="entry-body">
+          <h3> role </h3>
+          <p class="entry-place"> company </p>
+          <p> what was learned</p>
+        </div>
+      </article>
+    </section> -->
+
+    <!--  Contact  -->
+    <section class="section container" id="contact">
+      <h2>Contact</h2>
+      <p class="contact-intro">
+        I'm open to internships and project work. Email is the fastest way to reach me.
+      </p>
+      <ul class="contact-list">
+        <li><a href="mailto:u6105486@campus.udg.edu">u6105486@campus.udg.edu</a></li>
+        <li><a href="https://github.com/doncXD" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/dylan-doncaster" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+      <a class="btn btn-primary" href="assets/CV.pdf" download>Download CV (PDF)</a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Dylan Doncaster. Built with HTML and CSS.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
