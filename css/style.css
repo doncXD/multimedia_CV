@@ -199,39 +199,6 @@ a:hover {
   background: rgba(var(--accent-rgb), 0.12);
 }
 
-/* Radar */
-.radar {
-  position: relative;
-  width: min(100%, 380px);
-  aspect-ratio: 1;
-  justify-self: center;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(var(--accent-rgb), 0.06), transparent 70%);
-}
-
-.radar svg {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  stroke: var(--line);
-  stroke-width: 1;
-  vector-effect: non-scaling-stroke;
-}
-
-.radar svg * {
-  vector-effect: non-scaling-stroke;
-}
-
-.radar .radar-outer {
-  stroke: rgba(var(--accent-rgb), 0.45);
-}
-
-.radar .radar-center {
-  fill: var(--accent);
-  stroke: none;
-}
-
 /* The bright edge of the gradient is the leading edge of the beam. */
 .radar-sweep {
   position: absolute;

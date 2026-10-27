@@ -86,7 +86,6 @@ The goal is a visual identity that feels technical and clean without looking lik
 
 No CSS framework (Bootstrap, Tailwind) was used. The layout is simple enough to write by hand, and doing so keeps the code small, readable and fully under my control.
 
-AI was used to "vibecode" the svg radar that fitted the colour palette to give some "life" to the page. An alternative would have been an open source gif-svg that would have not fitted with the colour choices.
 
 ---
 
